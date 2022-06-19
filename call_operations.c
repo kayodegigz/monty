@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * exe_operation - function that executes opcodes
+ * exec_op - function that executes opcodes
  * @op_command: opcode commamd
  * @head: pointer to head
  * @line_number: line number

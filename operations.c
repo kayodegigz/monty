@@ -64,7 +64,7 @@ void pall(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * do_pint - function that prints the first element of the stack
+ * pint - function that prints the first element of the stack
  * @stack: pointer to the top of the stack
  * @line_number: error line number
  *
@@ -86,7 +86,7 @@ void pint(stack_t **stack, unsigned int line_number)
 
 
 /**
- * do_pop - function that removes the first element of the stack
+ * pop - function that removes the first element of the stack
  * @stack: pointer to the top of the stack
  * @line_number: error line number
  *
@@ -112,7 +112,7 @@ void pop(stack_t **stack, unsigned int line_number)
 
 
 /**
- * do_swap - function that swaps the first two elements of the stack
+ * swap - function that swaps the first two elements of the stack
  * @stack: pointer to the top of the stack
  * @line_number: error line number
  *

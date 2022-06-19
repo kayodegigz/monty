@@ -54,7 +54,7 @@ void stack_sub(stack_t **stack, unsigned int line_number)
 
 
 /**
- * do_div - function divides the second top elements of the stack by the
+ * stack_div - function divides the second top elements of the stack by the
  * top element of the stack
  * @stack: pointer to top of stack
  * @line_number: error line number
@@ -72,7 +72,7 @@ void stack_div(stack_t **stack, unsigned int line_number)
 	}
 	a = (*stack)->n;
 	b = (*stack)->next->n;
-	
+
 	if (a == 0)
 	{
 		fprintf(stderr, "L%u: division by zero\n",
